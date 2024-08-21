@@ -23,7 +23,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-TOKEN = '7037137041:AAHWc_9bSpHfphZAzhTbl7cUNGsVhZFd29w'
+TOKEN = 'your telegram token'
 
 # Load a pre-trained model, e.g., MobileNetV2 trained on ImageNet
 mobilenet_model = tf.keras.applications.MobileNetV2(weights="imagenet")
