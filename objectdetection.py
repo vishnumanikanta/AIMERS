@@ -3,7 +3,7 @@ import ultralytics
 from ultralytics import YOLO
 
 # Load the pretrained YOLOv8n model
-model = YOLO("C:/Users/naniv/Downloads/best.pt")
+model = YOLO("path for pt file")
 
 # Open the webcam
 cap = cv2.VideoCapture(0)
